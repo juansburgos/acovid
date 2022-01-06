@@ -5,8 +5,6 @@ import { useState } from 'react'
 import {
   Routes,
   Route,
-  Link,
-  useNavigate,
 } from "react-router-dom";
 import Home from './components/Home.js'
 import About from "./components/About.js"
