@@ -32,6 +32,16 @@
 
 .brandTitle {
     font-size: 38px;
+    font-weight: bold;
+}
+
+.brandLink {
+    text-decoration: none;
+    color: #cfc9a1;
+}
+
+.brandLink:hover {
+    color: #005d7f;
 }
 
 .offcanvas-end {

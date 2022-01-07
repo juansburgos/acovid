@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return(
         <Navbar sticky="top" bg="dark" variant="dark" expand={false} className="My-navbar">
-              <Navbar.Brand href="#home">
+              <Navbar.Brand>
+                <Link to="/" className="brandLink">
                 <img
                   alt=""
                   src={logo}
@@ -14,7 +15,8 @@ const Home = () => {
                   className="d-inline-block align-top"
                   id="Img-navbar"
                 />
-                <span className="brandTitle">Aco Beats</span>
+                <span to="/" className="brandTitle">Aco Beats</span>
+                </Link>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="offcanvasNavbar" />
               <Navbar.Offcanvas
