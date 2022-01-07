@@ -3,11 +3,39 @@
 }
 
 .Landing-button {
-    margin: 50px;
+    margin-top: 70px;
+    height: 8vmin;
+    width: 25vmin;
+    font-size: calc(20px + 2vmin);
+    text-align: center;
+    min-width: 180px;
+    min-height: 60px;
+    background-color: #005d7f;
+    color: #cfc9a1;
+    font-weight: bolder;
 }
 
 .My-navbar {
     padding-left: 20px;
+    padding-right: 20px;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0;
+}
+
+.offcanvas {
+    top: 45%;
+    right: 0;
+    width: auto;
+}
+
+.brandTitle {
+    font-size: 38px;
+}
+
+.offcanvas-end {
+    border: 0;
 }
 
 #Img-navbar {
@@ -15,8 +43,8 @@
 }
 
 .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+    max-height: 60vmin;
+    margin-top: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

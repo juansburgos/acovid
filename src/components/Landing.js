@@ -8,7 +8,7 @@ const Landing = () => {
         <header className="App-header">
             <img src={logo} className="App-logo"/>
             <Button onClick={() => navigate('/home')} variant="dark" type="submit" className="Landing-button">
-                Ingresar
+                INGRESAR
             </Button>
         </header>
     )
