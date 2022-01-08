@@ -9,6 +9,7 @@ import {
 import Home from './components/Home.js'
 import About from "./components/About.js"
 import Landing from './components/Landing.js'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
             <Routes>
                 <Route path="/home" element={<Home />}/>
                 <Route exact path='/' element={<Landing />}/>
+                <Route path='/about' element={<About />}/>
             </Routes>
+            <Footer/>
     </div>
   );
 }

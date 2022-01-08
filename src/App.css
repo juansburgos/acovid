@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+
 .App {
     text-align: center;
 }
@@ -15,6 +18,30 @@
     font-weight: bolder;
 }
 
+.Landing-button:hover {
+    color: #fbff00;
+}
+
+.nav-link {
+    font-family: 'Oleo Script';
+    font-size: 25px;
+    color: #cfc9a1;
+}
+
+.nav-link:hover {
+    color: #fbff00;
+}
+
+.home-div {
+    background-color: #282c34;
+    min-height: 97vh;
+}
+
+.home-body {
+    margin-top: 50px;
+    padding-bottom: 17px;
+}
+
 .My-navbar {
     padding-left: 20px;
     padding-right: 20px;
@@ -25,14 +52,16 @@
 }
 
 .offcanvas {
-    top: 45%;
+    top: 40%;
     right: 0;
     width: auto;
+    background-color: #282c34;
+    margin-right: 17px;
 }
 
 .brandTitle {
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Alfa Slab One';
 }
 
 .brandLink {
@@ -41,15 +70,11 @@
 }
 
 .brandLink:hover {
-    color: #005d7f;
+    color: #fbff00;
 }
 
 .offcanvas-end {
     border: 0;
-}
-
-#Img-navbar {
-    margin-right: 10px;
 }
 
 .App-logo {
@@ -65,7 +90,7 @@
 
 .App-header {
     background-color: #282c34;
-    min-height: 100vh;
+    min-height: 97vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,6 +101,12 @@
 
 .App-link {
     color: #61dafb;
+}
+
+footer {
+    min-height: 3vh;
+    background-color: #282c34;
+    color: #cfc9a1;
 }
 
 @keyframes App-logo-spin {
